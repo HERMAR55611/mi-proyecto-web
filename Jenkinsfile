@@ -4,7 +4,7 @@ pipeline {
     IMAGE_NAME = "miapp-nginx"
     IMAGE_TAG  = "build-${BUILD_NUMBER}"
     CONTAINER_NAME = "web1"
-    HOST_PORT = "8080"
+    HOST_PORT = "9090"
   }
   stages {
     stage('Checkout') {
